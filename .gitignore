@@ -1,0 +1,64 @@
+# ===============================
+# Python & Jupyter Stuff
+# ===============================
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+.DS_Store
+*.egg-info/
+*.log
+
+# Jupyter Notebook metadata (optional)
+.ipynb_checkpoints/
+*.ipynb~  # Backup files
+
+# ===============================
+# Environment & Dependencies
+# ===============================
+.env
+.venv/
+venv/
+env/
+*.conda
+*.env
+*.yml~
+Pipfile.lock
+poetry.lock
+
+# VSCode or JetBrains (DataSpell, PyCharm) files
+.vscode/
+.idea/
+
+# ===============================
+# Data Files (Optional: keep raw, ignore processed)
+# ===============================
+data/processed/
+data/interim/
+*.csv
+*.xlsx
+*.xls
+*.json
+*.sav
+*.sqlite
+*.h5
+*.zip
+
+# ===============================
+# Models / Outputs
+# ===============================
+models/
+*.pkl
+*.joblib
+
+# ===============================
+# Reports & Figures (optional)
+# ===============================
+reports/figures/*.png
+reports/figures/*.jpg
+reports/figures/*.pdf
+
+# ===============================
+# System files
+# ===============================
+Thumbs.db
+desktop.ini

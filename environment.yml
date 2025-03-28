@@ -1,0 +1,13 @@
+name: credit_card_default
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - openpyxl
+  - imbalanced-learn
+
