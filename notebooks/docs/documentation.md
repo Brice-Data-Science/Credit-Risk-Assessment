@@ -85,3 +85,12 @@ If a column is supposed to be numeric, but pandas sees it as an object, it could
 
 - **Mixed types in the column**  
   e.g. some values are numbers, but one rogue string like `"error"` sneaks in
+
+
+### Fix to the dtype as an object
+
+- Tested random columns for type of dtype. 
+- Found column X6 contained 20% as an object.
+- Applied command to change dtype to numeric and ran the check to check if it fixed the issue
+- Upon confirmation, ran a for loop to check column type and change all object columns to numeric
+- Reran the dtype check, which is now 100% float64.
